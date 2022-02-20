@@ -12,7 +12,7 @@ const Bread = require('../models/bread.js')
   )
 })
   // res.send(Bread)
-})
+
 module.exports = breads
 // SHOW
 breads.get('/:arrayIndex', (req, res) => {
